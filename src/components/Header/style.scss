@@ -12,7 +12,8 @@
      .animated-header {
         display: flex;
         align-items: center;
-        flex-direction: row; 
+        flex-direction: row;
+        justify-content: center; 
         .overlay{
             z-index: 1;
             img{
