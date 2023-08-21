@@ -17,7 +17,7 @@ function Header() {
             <div className='overlay'>
                 <img src='img/developardus-logo.png' alt="Logo" className="logo" />
                 <h1 className='header-title'>Antidot Smart Agriculture Systems</h1>
-                <button onClick={scrollToElement}>LEARN MORE</button>
+                <button className='learn-btn' onClick={scrollToElement}>LEARN MORE</button>
             </div>
         </div>
     </div>

@@ -34,7 +34,7 @@
                 justify-content: center;
                 align-items: center;
                 width: 40px;
-                color: white;
+                color: #f9f9f9;
                 border-radius: 50%;
             }
         }
@@ -42,7 +42,7 @@
 }
 @media screen and (max-width: 768px) {
     .features-container{
-        height: 150vh;
+        // height: 150vh;
         .col-container{
             .column {
                 width: calc(100% - 20px); /* Two columns for smaller screens */

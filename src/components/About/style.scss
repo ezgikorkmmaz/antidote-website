@@ -32,8 +32,11 @@
             }
 
             .why-choose-us {
-                text-align: right;
+                text-align: initial;
+                align-items: end;
                 padding: 20px 0;
+                display: flex;
+                flex-direction: column;
                 h1{
                     color: #b1de00;
                     text-transform: uppercase;

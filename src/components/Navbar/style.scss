@@ -24,7 +24,7 @@
           text-transform: uppercase;
           position: relative; 
           &.active, &:hover {
-            color: #2ecc71;/* Active link color */
+            // color: #b1de00;/* Active link color */
             &::before {
               content: '';
               position: absolute;
@@ -32,7 +32,7 @@
               left: 0;
               width: 100%;
               height: 2px;
-              background-color: #2ecc71; /* Active link underline color */
+              background-color: #468902; /* Active link underline color */
             }
           }
         }
@@ -61,7 +61,7 @@
                 background-color: #333;
                 color: #fff;
                 li{
-                    margin: 5px 0;
+                    margin: 8px 0;
                 }
               }
             .menu-icon {
