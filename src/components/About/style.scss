@@ -1,0 +1,80 @@
+.about-content{
+    width: 100%;
+    // height: 100vh;
+    background: linear-gradient(to bottom, #141414, #102B3E);
+
+    .about-us-container{
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        align-items: flex-start;
+        .image-container{
+            max-width: 100%; /* Ensure the container adjusts to the screen width */
+            width: 400px; /* Set your desired static width */
+            box-sizing: border-box;
+            img{
+                max-width: 100%; /* Make the image responsive within the container */
+                height: auto;
+            }
+        }
+        
+        .text-container{
+            text-align: justify;
+            padding: 20px;
+            color: #f9f9f9;
+            font-size: 14px;
+            font-weight: 500;
+            h2{
+                color: #b1de00;
+                text-decoration:overline;
+                text-transform: uppercase;
+                font-size: 36px;
+            }
+
+            .why-choose-us {
+                text-align: right;
+                padding: 20px 0;
+                h1{
+                    color: #b1de00;
+                    text-transform: uppercase;
+                    font-size: 28px;
+                    font-weight: 500;
+                }
+
+              }
+              .reasons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 20px;
+              }
+              .column {
+                flex: 1;
+                padding: 0 10px;
+              }
+              .reason-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+              }
+              .bullet {
+                font-size: 20px;
+                margin-right: 10px;
+              }
+              .reason-text {
+                font-size: 16px;
+              }
+              @media (max-width: 768px) {
+                .reasons {
+                  flex-direction: column;
+                  align-items: center;
+                }
+                .column {
+                  padding: 10px;
+                }
+              }
+        }
+    }
+}
+
+  
