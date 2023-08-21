@@ -3,6 +3,13 @@ import './style.scss';
 import ParticlesBg from "particles-bg";
 
 function Header() {
+  const scrollToElement = () => {
+    const startElement = document.getElementById('features');
+    if (startElement) {
+      startElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div id='header' className="animated-bg">
         <div className="animated-header">
@@ -10,7 +17,7 @@ function Header() {
             <div className='overlay'>
                 <img src='img/developardus-logo.png' alt="Logo" className="logo" />
                 <h1 className='header-title'>Antidot Smart Agriculture Systems</h1>
-                <button onClick="location.href='#features'">LEARN MORE</button>
+                <button onClick={scrollToElement}>LEARN MORE</button>
             </div>
         </div>
     </div>
